@@ -15,7 +15,6 @@
             <ul>
               <li><a href="{{ url_for('contact') }}">contact</a></li>
               <li><a href="{{ url_for('about') }}">about</a></li>
-              <li><a href="#">more</a></li>
             </ul>
         </div>
 
@@ -24,9 +23,10 @@
           <a href="{{ url_for('nba_page') }}">nba api testing</a>
         </div>
 
-        <div class = "footer">
-            <p>markzarroli - 2024</p>
-        </div>
+        <div id="clock"></div>
+
+        <script src="{{ url_for('static', filename='js/clock_script.js') }}"></script>
+
     </main>
 
   </body>

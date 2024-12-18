@@ -24,8 +24,8 @@ h2 {
 #random_player {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
+    justify-content: center; 
+    align-items: center;    
     margin-top: 50px;
     padding: 5px;
 }
@@ -47,6 +47,7 @@ h2 {
 #random_player p {
     color: #54638C;
     display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #random_player img {

@@ -40,21 +40,10 @@ h2 {
     transition: background-color 0.3s;
 }
 
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: grey;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
 .sidebar {
     font-family: 'Courier New', Courier, monospace;
     width: 110px;
-    color: grey;
+    color: darkgray;
     position: fixed;
     height: 150px;
     overflow: auto;
@@ -84,31 +73,11 @@ h2 {
     padding-top: 5px;
 }
 
-
-
-.hilobutton {
-    font-family: 'Courier New', Courier, monospace;
-    display: block;
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 20%;
-    margin-left: 50%;
-    margin-right: 50%;
-    border-radius: 4px;
-    padding: 12px 24px;
-    
-}
-
-.player-box, .stat-box {
+#clock {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    position: relative;
-}
-
-#hibtn:hover {
-    background-color: lightgreen;
-}
-
-#lobtn:hover {
-    background-color: rgb(226, 135, 135);
+    position: fixed;
+    color: grey;
+    bottom: 10px;
+    left: 10px;
 }
